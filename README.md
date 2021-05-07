@@ -5,10 +5,10 @@
 This repository contains two files to download, extract and partition the DCLDE 2013 Right Whale Dataset into the same experimental split used in the above paper.   
 
 ### Getting Started
-1. Run the Matlab file ```setup.m```. This script will automatically download and extract all the relevant files from DCLDE 2013 competition. Files will be stored within the folder ```DCLDE2013_Data``` at the same location as where the script is run from. 
+1. Run the Matlab file ```setup.m```. This script will automatically download and extract all the relevant files from the DCLDE 2013 competition. Files will be stored within the folder ```DCLDE2013_Data``` at the same location as where the script is run from. 
 2. Run the Python file ```partition.py```. Only run this script after step 1. This script will partition the data into the same train, validation and test splits used in the above paper.</br></br> 
 
-> #### ```parition.py```
+> #### ```partition.py```
 > ##### Script Options
 > * `-w` - Specify an array of noise levels for the white noise to be added at, e.g. `-w [5, 10, 15, 20]`. This will produce a version of the partition with white noise added at the given noise levels. Will also produce the standard variant unless `-m` is used.
 > * `-m` - Will turn off the standard partition and only produce a noise variant if selected.
