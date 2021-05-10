@@ -10,5 +10,5 @@ This repository contains two files to download, extract and partition the DCLDE 
 
 > #### ```partition.py```
 > ##### Script Options
-> * `-w` - Specify an array of noise levels for the white noise to be added at, e.g. `-w [5, 0, -5, -10]`. This will produce a version of the partition with white noise added at the given noise levels. Will also produce the standard variant unless `-m` is used.
+> * `-w` - This will produce a version of the partition with white noise added at set signal-to-nosie ratios of [5, 0, -5, -10]. Will also produce the standard variant unless `-m` is used.
 > * `-m` - Will turn off the standard partition and only produce a noise variant if selected.
