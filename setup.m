@@ -19,7 +19,7 @@ if ~exist(root_folder, 'dir')
     mkdir(root_folder)
     cd (root_folder)
     
-    segments_folder = 'Stellwagen';
+    segments_folder = 'Events';
     if ~exist(segments_folder, 'dir')
         mkdir(segments_folder)
         cd (segments_folder)
